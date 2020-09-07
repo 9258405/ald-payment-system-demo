@@ -1,0 +1,33 @@
+{
+    "name": "alading/ald-payment-system-demo",
+    "description": "This is the payment DEMO of Aladdin Payment System",
+    "homepage": "https://github.com/9258405/ald-payment-system-demo",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "phper_duan",
+            "email": "9258405@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework":"^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\duanguobin\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/9258405/ald-payment-system-demo/issues"
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "payment": "src/config/payment.php"
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+/.idea
+/vendor/
+/demo.php
+/composer.lock
+/.git
